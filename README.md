@@ -73,6 +73,9 @@ plot(fw2);
 
 <img width="1918" height="1055" alt="auto correlation-ac" src="https://github.com/user-attachments/assets/12541597-82a9-4f82-a0bd-e3f8ccec3cb7" />
 
+![WhatsApp Image 2025-11-27 at 20 51 57_b8674794](https://github.com/user-attachments/assets/2015b548-00a1-4e3b-808c-ee43950767e1)
+
+
 ---
 
 ### Result:
