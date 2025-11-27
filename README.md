@@ -45,13 +45,12 @@ $$ACF = R_{xx}(\tau) = l FT [S_{xx}(\omega)] = \frac{1}{2 \pi} \int_{-\infty}^{\
 ---
 
 ### Program:
-
-```sci
+```
 clc
 clear all;
 pi=3.14;
 t=0:0.01:2*pi;
-x=cos(19*t); 
+x=2*sin(2*t); 
 subplot(3,2,1); 
 plot(x); 
 au=xcorr(x,x);
@@ -67,13 +66,12 @@ plot(fw);
 fw2=(abs(fw)).^2;
 subplot(3,2,5); 
 plot(fw2);
-```
 
----
+```
 
 ### Output:
 
-<img width="1126" height="1280" alt="image" src="https://github.com/user-attachments/assets/590f81f0-d519-41da-9958-9bff03acc777" />
+<img width="1918" height="1055" alt="auto correlation-ac" src="https://github.com/user-attachments/assets/12541597-82a9-4f82-a0bd-e3f8ccec3cb7" />
 
 ---
 
