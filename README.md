@@ -51,7 +51,7 @@ clc
 clear all;
 pi=3.14;
 t=0:0.01:2*pi;
-x=2*sin(2*t); 
+x=cos(19*t); 
 subplot(3,2,1); 
 plot(x); 
 au=xcorr(x,x);
@@ -73,8 +73,7 @@ plot(fw2);
 
 ### Output:
 
-<img width="1536" height="800" alt="image" src="https://github.com/user-attachments/assets/d3d3f17e-1b10-4cd3-987d-2cab5024814d" />
-
+<img width="1126" height="1280" alt="image" src="https://github.com/user-attachments/assets/590f81f0-d519-41da-9958-9bff03acc777" />
 
 ---
 
